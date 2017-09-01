@@ -33,7 +33,7 @@
 
 #>
 
-Import-Module C:\Users\raditsvc\OneDrive\PowerShell\SCCM\Logging\SCCM-Logging\CMInstallerLogging.psm1
+Import-Module $PSScriptRoot..\..\..\Logging\SCCM-Logging\CMInstallerLogging.psm1
 
 $TempDownloadLocation = "C:\Temp\Temp"
 
